@@ -9,7 +9,7 @@ Given('the applicant open the interview link') do
   When('the applicant fill in the form correctly') do
     fullname "Rifka Malinda"
     email "rifka@mail.com"
-    phone "08117684417"
+    phone "08117684416"
   end
   
   Then('the applicant click next button') do
