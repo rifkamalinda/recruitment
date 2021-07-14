@@ -1,3 +1,6 @@
+require_relative '../support/screen_action.rb'
+require_relative '../support/hook.rb'
+
 Given('the applicant open the interview link') do
     open_url "https://secretproject1.com/interview/123/applicant"
     sleep (3)
